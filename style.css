@@ -93,6 +93,14 @@ nav {
   place-items: center;
 }
 
+.title-container {
+  display: flex;
+}
+.title-container img {
+  transform: rotate(180deg);
+  margin-right: 14px;
+}
+
 .title {
   font-size: var(--lg);
   margin-bottom: 40px;
@@ -355,6 +363,11 @@ nav {
   text-align: center;
 }
 
+.title-arrow {
+  font-size: var(--lg);
+  font-weight: bold;
+}
+
 .title-desktop {
   font-size: var(--lg);
   margin-bottom: 36px;
@@ -453,6 +466,12 @@ nav {
   position: absolute;
   right: 0;
 }
+
+.detail-product {
+  padding: 24px;
+  box-sizing: border-box;
+}
+
 .product-detail-close {
   background: var(--white);
   width: 14px;
